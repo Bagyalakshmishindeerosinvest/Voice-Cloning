@@ -20,13 +20,15 @@ Voice cloning is an advanced AI technique that mimics a person’s voice by anal
 Follow the steps below to set up and run the application on your local machine.
 
 ### 1. Clone the Repository
+
 ## 2. Create a Virtual Environment (Python 3.8)
 
 Ensure Python 3.8 is installed. Then create and activate a virtual environment:
 
 ```bash
 python3.8 -m venv venv
-source venv/bin/activate        # On Windows: venv\Scripts\activate
+source venv/bin/activate
+# On Windows: venv\Scripts\activate
 
 
 ## 3. Install Dependencies
@@ -43,7 +45,9 @@ Once everything is ready, run the app using:
 python new.py
 
 ###  Download Pretrained Models
-Pretrained models are now downloaded automatically. If this doesn't work for you, you can manually download them [here](https://github.com/CorentinJ/Real-Time-Voice-Cloning/wiki/Pretrained-models).
+Pretrained models are now downloaded automatically. If this doesn't work for you,
+ you can manually download them
+ [here](https://github.com/CorentinJ/Real-Time-Voice-Cloning/wiki/Pretrained-models).
 
 📁 **Make sure to place the downloaded weights in the following structure:**  
 `saved_models → default → *.pth` (your model weight files should go inside the `default` folder).
